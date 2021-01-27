@@ -1,5 +1,7 @@
-# IBM_data_science_professional_certificate
-here i put all material for the IBM certificate
+# Data science Folder
+
+It contains all material for the IBM Data Science professional certificate and all other useful material related to data science
+
 
 Created: by Pier Luigi Segatto 
 
