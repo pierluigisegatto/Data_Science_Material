@@ -22,16 +22,6 @@ print('Folium installed')
 print('Libraries imported.')
 
 
-CLIENT_ID = '5HAYNQMXEEGNMBKV0EKKQUEVKGHGSLA5H2A4YULOKF3S3TGC' # your Foursquare ID
-CLIENT_SECRET = 'JHVYWCNP0DUHLPTLKQL3FW5ZU11KVSGDJOTYZURAWWA5QMD4' # your Foursquare Secret
-ACCESS_TOKEN = 'ENPEGIGUMD5AMH011QPRKEKP5YQCPGSOUJZ5XSGLTXOU0UTJ' # your FourSquare Access Token
-VERSION = '20180604'
-LIMIT = 30
-print('Your credentails:')
-print('CLIENT_ID: ' + CLIENT_ID)
-print('CLIENT_SECRET:' + CLIENT_SECRET)
-
-
 address = '102 North End Ave, New York, NY'
 
 geolocator = Nominatim(user_agent="foursquare_agent")
