@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt # plotting library
 get_ipython().run_line_magic("matplotlib", " inline ")
 
 from sklearn.cluster import KMeans 
-from sklearn.datasets.samples_generator import make_blobs
+from sklearn.datasets import make_blobs
 
 print('Libraries imported.')
 
