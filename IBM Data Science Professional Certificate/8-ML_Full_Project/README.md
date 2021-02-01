@@ -3,7 +3,7 @@ The repository is a part of the IBM Data Science Capstone project. The project i
 
 The first map contains the visualization of the various neighbourhoods in Canada whose borough has the word Toronto.
 
-![Pic one](https://user-images.githubusercontent.com/35381035/61996888-6a463300-b0b7-11e9-9484-f12729eb3ed1.png)
+![Pic one](https://github.com/pierluigisegatto/Data_Science_Material/blob/main/IBM%20Data%20Science%20Professional%20Certificate/8-ML_Full_Project/toronto_neigh.png)
 
 The second map contains the clusters of data using the KMeans ML algorithm.
 
