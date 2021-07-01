@@ -3,8 +3,11 @@ In particular, this script, once correctly setup, will periodically withdraw com
 
 I personally run my Desmos validator using a VPS and I execute this script using *tmux*, which is a terminal multiplexer for Unix-like operating systems. 
 In this way I can run the script on another shell without blocking any other functionalities.
+
 To create a new shell: `tmux new -s auto_delegator`
+
 To exit the shell: `CTRL B + D`
+
 To access the shell: `tmux attach -t auto_delegator` 
 
 
@@ -27,7 +30,7 @@ For Desmos in particular this script will perform these transactions:
 
 `desmos tx distribution withdraw-rewards VALOPER --commission --chain-id morpheus-apollo-1 --from WALLET_KEY --fees FEE usaric -y`
 
-`desmos tx staking delegate VALOPER DELEGATEudaric --chain-id morpheus-apollo-1 --from WALLET_KEY --fees FEE udaric -y`
+`desmos tx staking delegate VALOPER AMOUNT_TO_DELEGATEudaric --chain-id morpheus-apollo-1 --from WALLET_KEY --fees FEE udaric -y`
 
 
 
